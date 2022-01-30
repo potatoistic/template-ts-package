@@ -1,0 +1,36 @@
+{
+  "name": "template-ts-package",
+  "version": "1.0.0",
+  "description": "Template for NPM Node Typescript Packages",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "rimraf": "rimraf lib",
+    "prepare": "npm run rimraf && npm run build",
+    "lint": "eslint src/**/*.ts",
+    "lint-fix": "eslint --fix src/**/*.ts"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "typescript"
+  ],
+  "author": "dhruvsaxena1998 <https://github.com/dhruvsaxena1998>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
