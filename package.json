@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "rimraf": "rimraf lib",
-    "prepare": "npm run rimraf && npm run build",
+    "generate": "npm run rimraf && npm run build",
     "lint": "eslint src/**/*.ts",
     "lint-fix": "eslint --fix src/**/*.ts"
   },
