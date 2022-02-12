@@ -58,6 +58,7 @@ typings/
 .cache
 dist
 build
+lib
 
 .npmrc
 .yarnrc
