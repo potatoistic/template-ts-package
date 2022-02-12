@@ -15,7 +15,8 @@
         "generate": "npm run rimraf && npm run swc:build && npm run tsc:build",
         "tsc:build": "tsc --emitDeclarationOnly --declarationDir lib",
         "swc:build": "swc src -d lib",
-        "swc:watch": "swc -w src -d lib --log-watch-compilation"
+        "swc:watch": "swc -w src -d lib --log-watch-compilation",
+        "test": "jest"
     },
     "keywords": [
         "npm",
