@@ -41,6 +41,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# swc cache
+.swc
+
 # Optional REPL history
 .node_repl_history
 
