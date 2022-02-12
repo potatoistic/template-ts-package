@@ -69,3 +69,7 @@ lib
 # lock files
 package-lock.json
 yarn.lock
+
+# Editor configurations
+.idea
+.vscode
