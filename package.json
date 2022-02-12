@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "start": "node lib/index.js",
     "rimraf": "rimraf lib",
     "generate": "npm run rimraf && npm run build",
     "lint": "eslint src/**/*.ts",
