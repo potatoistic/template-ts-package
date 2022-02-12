@@ -65,3 +65,7 @@ lib
 
 .npmrc
 .yarnrc
+
+# lock files
+package-lock.json
+yarn.lock
